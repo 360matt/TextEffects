@@ -1,4 +1,5 @@
-# TextEffects
+# TextEffects  
+Allows you to create frame-by-frame text animations with rgb-gradient support in Minecraft.
 
 ## Maven  
 ```
