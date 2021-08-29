@@ -12,7 +12,7 @@ Allows you to create frame-by-frame text animations with rgb-gradient support in
 <dependency>
     <groupId>io.github.360matt</groupId>
     <artifactId>TextEffects</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1.1-SNAPSHOT</version>
 </dependency>
 ```
 
