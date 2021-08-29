@@ -12,7 +12,7 @@ public final class EraseAnimation extends Animation {
         for (int i = 0; i < text.length(); i++) {
             sb.append(" ");
             String cutText = text.substring(i);
-            this.formatted.add(sb + lastColor + cutText);
+            this.frames.add(sb + lastColor + cutText);
         }
     }
 }

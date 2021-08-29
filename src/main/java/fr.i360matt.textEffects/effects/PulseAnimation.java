@@ -19,56 +19,56 @@ public final class PulseAnimation extends Animation {
             case MULTI:
                 //Parse all... no break
             case WHITE:
-                this.formatted.add("§0" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§7" + text);
-                this.formatted.add("§f" + text);
+                this.frames.add("§0" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§7" + text);
+                this.frames.add("§f" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§f" + text);
+                    this.frames.add("§f" + text);
                 }
-                this.formatted.add("§f" + text);
-                this.formatted.add("§7" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§f" + text);
+                this.frames.add("§7" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
                 if (!options.color.equals(Options.Colors.MULTI)) {
                     break;
                 }
             case BLACK:
-                this.formatted.add("§f" + text);
-                this.formatted.add("§7" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§f" + text);
+                this.frames.add("§7" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
-                this.formatted.add("§0" + text);
-                this.formatted.add("§7" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§0" + text);
+                this.frames.add("§7" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
 
                 if (!options.color.equals(Options.Colors.MULTI)) {
                     break;
                 }
             case RED:
-                this.formatted.add("§0" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§4" + text);
-                this.formatted.add("§c" + text);
+                this.frames.add("§0" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§4" + text);
+                this.frames.add("§c" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§c" + text);
+                    this.frames.add("§c" + text);
                 }
-                this.formatted.add("§c" + text);
-                this.formatted.add("§4" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§c" + text);
+                this.frames.add("§4" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
 
                 if (!options.color.equals(Options.Colors.MULTI)) {
@@ -76,19 +76,19 @@ public final class PulseAnimation extends Animation {
                 }
 
             case YELLOW:
-                this.formatted.add("§0" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§6" + text);
-                this.formatted.add("§e" + text);
+                this.frames.add("§0" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§6" + text);
+                this.frames.add("§e" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§e" + text);
+                    this.frames.add("§e" + text);
                 }
-                this.formatted.add("§e" + text);
-                this.formatted.add("§6" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§e" + text);
+                this.frames.add("§6" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
 
                 if (!options.color.equals(Options.Colors.MULTI)) {
@@ -96,38 +96,38 @@ public final class PulseAnimation extends Animation {
                 }
 
             case BLUE:
-                this.formatted.add("§0" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§1" + text);
-                this.formatted.add("§9" + text);
+                this.frames.add("§0" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§1" + text);
+                this.frames.add("§9" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§9" + text);
+                    this.frames.add("§9" + text);
                 }
-                this.formatted.add("§9" + text);
-                this.formatted.add("§1" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§9" + text);
+                this.frames.add("§1" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
                 if (!options.color.equals(Options.Colors.MULTI)) {
                     break;
                 }
 
             case PINK:
-                this.formatted.add("§0" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§5" + text);
-                this.formatted.add("§d" + text);
+                this.frames.add("§0" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§5" + text);
+                this.frames.add("§d" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§d" + text);
+                    this.frames.add("§d" + text);
                 }
-                this.formatted.add("§5" + text);
-                this.formatted.add("§d" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§5" + text);
+                this.frames.add("§d" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
 
                 if (!options.color.equals(Options.Colors.MULTI)) {
@@ -135,38 +135,38 @@ public final class PulseAnimation extends Animation {
                 }
 
             case GREEN:
-                this.formatted.add("§0" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§2" + text);
-                this.formatted.add("§a" + text);
+                this.frames.add("§0" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§2" + text);
+                this.frames.add("§a" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§a" + text);
+                    this.frames.add("§a" + text);
                 }
-                this.formatted.add("§a" + text);
-                this.formatted.add("§2" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§a" + text);
+                this.frames.add("§2" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
 
                 if (!options.color.equals(Options.Colors.MULTI)) {
                     break;
                 }
             case CYAN:
-                this.formatted.add("§0" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§3" + text);
-                this.formatted.add("§b" + text);
+                this.frames.add("§0" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§3" + text);
+                this.frames.add("§b" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§b" + text);
+                    this.frames.add("§b" + text);
                 }
-                this.formatted.add("§b" + text);
-                this.formatted.add("§3" + text);
-                this.formatted.add("§8" + text);
-                this.formatted.add("§0" + text);
+                this.frames.add("§b" + text);
+                this.frames.add("§3" + text);
+                this.frames.add("§8" + text);
+                this.frames.add("§0" + text);
                 for (int i = 0; i < options.pause; i++) {
-                    this.formatted.add("§0" + text);
+                    this.frames.add("§0" + text);
                 }
                 break;
         }

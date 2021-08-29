@@ -13,13 +13,13 @@ public final class AlignAnimation {
 
     public static class LEFT extends Animation {
         public LEFT (final String text, final Options options) {
-            this.formatted = Collections.singletonList(alignText(text, options.width, false));
+            this.frames = Collections.singletonList(alignText(text, options.width, false));
         }
     }
 
     public static class RIGHT extends Animation {
         public RIGHT (final String text, final Options options) {
-            this.formatted = Collections.singletonList(alignText(text, options.width, true));
+            this.frames = Collections.singletonList(alignText(text, options.width, true));
         }
     }
 

@@ -30,7 +30,7 @@ public final class WaveAnimation extends Animation {
             }
 
             index = ++counter;
-            this.formatted.add(currentFrame.toString());
+            this.frames.add(currentFrame.toString());
         }
     }
 }

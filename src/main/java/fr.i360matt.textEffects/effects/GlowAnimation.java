@@ -20,7 +20,7 @@ public final class GlowAnimation extends Animation {
             final int startGi = Math.max(i - options.size, 0);
             final int midGi = Math.max(startGi + (startGi > 0 ? 1 : 0), 0) + (i - options.size == 0 ? 1 : 0);
 
-            this.formatted.add(
+            this.frames.add(
                    options.normal + text.substring(0, startGi) +
                    options.start + text.substring(startGi, Math.min(midGi, text.length())) +
                    options.middle + text.substring(midGi, Math.min(Math.max(i - 1, 0), text.length())) +
@@ -30,6 +30,6 @@ public final class GlowAnimation extends Animation {
         }
 
         for (int i = 0; i < options.pause; i++)
-            this.formatted.add(options.normal + text);
+            this.frames.add(options.normal + text);
     }
 }

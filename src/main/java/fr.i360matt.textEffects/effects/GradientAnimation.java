@@ -13,7 +13,7 @@ public class GradientAnimation extends Animation {
     }
 
     public GradientAnimation (final String text, final Options options) {
-        this.formatted = GradientText.getAnimatedGradient(text, options.start, options.end);
+        this.frames = GradientText.getAnimatedGradient(text, options.start, options.end);
     }
 
 }

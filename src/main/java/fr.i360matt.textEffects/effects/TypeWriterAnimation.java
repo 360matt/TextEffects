@@ -19,24 +19,24 @@ public final class TypeWriterAnimation extends Animation {
         int counter = 0;
 
         for (int i = 0; i < options.pause; i++) {
-            this.formatted.add("");
-            this.formatted.add("");
-            this.formatted.add(options.cursor);
-            this.formatted.add(options.cursor);
+            this.frames.add("");
+            this.frames.add("");
+            this.frames.add(options.cursor);
+            this.frames.add(options.cursor);
         }
 
         for (final char character : text.toCharArray()) {
             current.append(character);
-            counter = counterCheck(this.formatted, options.cursor, current, counter);
+            counter = counterCheck(this.frames, options.cursor, current, counter);
         }
 
         for (int i = 0; i < options.pause; i++)
-            counter = counterCheck(this.formatted, options.cursor, current, counter);
+            counter = counterCheck(this.frames, options.cursor, current, counter);
 
         if (options.reverse) {
             for (int i = text.length(); i > 0; i--) {
                 current.deleteCharAt(i - 1);
-                counter = counterCheck(this.formatted, options.cursor, current, counter);
+                counter = counterCheck(this.frames, options.cursor, current, counter);
             }
         }
     }

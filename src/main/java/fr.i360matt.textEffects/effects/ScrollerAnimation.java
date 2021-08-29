@@ -62,7 +62,7 @@ public final class ScrollerAnimation extends Animation {
                 }
             }
 
-            this.formatted.add(stored + builder.substring(1));
+            this.frames.add(stored + builder.substring(1));
         }
 
     }

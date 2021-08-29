@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public final class BlinkAnimation extends Animation {
     public BlinkAnimation (final String text) {
-        this.formatted = Arrays.asList(text, "");
+        this.frames = Arrays.asList(text, "");
     }
 
 }
